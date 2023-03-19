@@ -1,0 +1,39 @@
+{
+  "name": "notebook_signalling_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monir0908/notebook_signalling_server.git"
+  },
+  
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monir0908/notebook_signalling_server/issues"
+  },
+  "homepage": "https://github.com/monir0908/notebook_signalling_server#readme",
+  "dependencies": {
+        "http": "^0.0.1-security",
+        "lodash.debounce": "^4.0.8",
+        "ws": "^8.12.1",
+        "y-protocols": "^1.0.5",
+        "yjs": "^13.5.47"
+  },
+  "browserslist": {
+        "production": [
+            "defaults",
+            "not IE 11"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+  }
+}
